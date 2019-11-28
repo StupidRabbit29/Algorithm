@@ -26,3 +26,5 @@ Type Knapsack2(Type value[], int weight[], int size, int item_num, Type dp[])
 
 	return dp[size];
 }
+
+//À„∑®∏¥‘”∂»£∫O(item_num * size)

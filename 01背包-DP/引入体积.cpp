@@ -31,3 +31,5 @@ Type Knapsack3(Type value[], int weight[], int volume[], int size, int Total_V, 
 
 	return dp[Total_V][size];
 }
+
+//À„∑®∏¥‘”∂»£∫O(item_num * size * Total_V)
