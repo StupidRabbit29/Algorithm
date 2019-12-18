@@ -1,7 +1,7 @@
 #include"main.h"
 
 template<class Type>
-int FindInc(Type array[], int num, Type dp[], int pre[])
+int FindInc(Type array[], int num, int dp[], int pre[])
 	//array存储数组
 	//num为数组的长度
 	//
