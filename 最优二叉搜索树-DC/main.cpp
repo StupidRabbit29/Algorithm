@@ -43,23 +43,24 @@ void CreateTree(int** s, int i, int j)
 	else
 	{
 		int k = s[i][j];
-		if (i != k - 1 && k + 1 != j)
+		if (i != k && k != j)
 			cout << "Tree[" << i << ", " << j << "]: " << "Tree[" << i << ", " << k - 1 << "]-->" << k << "<--Tree[" << k + 1 << ", " << j << "]" << endl;
-		else if (i == k - 1 && k + 1 != j)
-			cout << "Tree[" << i << ", " << j << "]: " << i << " -->" << k << "<--Tree[" << k + 1 << ", " << j << "]" << endl;
-		else if (i != k - 1 && k + 1 == j)
-			cout << "Tree[" << i << ", " << j << "]: " << "Tree[" << i << ", " << k - 1 << "]-->" << k << "<-- " << j << endl;
-		else if (i == k - 1 && k + 1 == j)
-			cout << "Tree[" << i << ", " << j << "]: " << i << " -->" << k << "<-- " << j << endl;
+		else if(i==k&&k!=j)
+			cout << "Tree[" << i << ", " << j << "]: " << k << "<--Tree[" << k + 1 << ", " << j << "]" << endl;
+		else if(i!=k&&k==j)
+			cout << "Tree[" << i << ", " << j << "]: " << "Tree[" << i << ", " << k - 1 << "]-->" << k << endl;
 
-		CreateTree(s, i, k - 1);
-		CreateTree(s, k + 1, j);
+		if (i != k)
+			CreateTree(s, i, k - 1);
+		if (k != j)
+			CreateTree(s, k + 1, j);
 	}
 }
 
 //动态规划算法求解最优二叉搜索树
 void OBST1(float a[], float b[], float** m, int** s, float** w)
 {
+	//初始化w矩阵和m矩阵中部分元素
 	for (int i = 0; i <= num; i++)
 	{
 		w[i + 1][i] = a[i];
@@ -71,10 +72,13 @@ void OBST1(float a[], float b[], float** m, int** s, float** w)
 		for (int i = 1; i <= num - r; i++)
 		{
 			int j = i + r;
+
+			//相当于取k=i，即左子树是叶子节点，其他所有内部节点全部划分在右子树
 			w[i][j] = w[i][j - 1] + a[j] + b[j];
 			m[i][j] = m[i + 1][j];
 			s[i][j] = i;
 
+			//遍历k
 			for (int k = i + 1; k <= j; k++)
 			{
 				float t = m[i][k - 1] + m[k + 1][j];
@@ -84,7 +88,6 @@ void OBST1(float a[], float b[], float** m, int** s, float** w)
 					s[i][j] = k;
 				}
 			}
-
 			m[i][j] += w[i][j];
 		}
 	}
