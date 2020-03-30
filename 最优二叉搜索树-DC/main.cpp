@@ -5,6 +5,8 @@ int num = 0;
 
 void OBST1(float a[], float b[], float** m, int** s, float** w);
 void CreateTree(int** s, int i, int j);
+void PrintMsg(float** w);
+void PrintTreeRoot(int** s);
 
 int main()
 {
@@ -16,12 +18,12 @@ int main()
 	int** s = new int* [num + 1];
 	for (int i = 0; i <= num; i++)
 	{
-		m[i] = new float[num + 1];
-		w[i] = new float[num + 1];
-		s[i] = new int[num + 1];
+		m[i] = new float[num + 1]{ 0 };
+		w[i] = new float[num + 1]{ 0 };
+		s[i] = new int[num + 1]{ 0 };
 	}
-	m[num + 1] = new float[num + 1];
-	w[num + 1] = new float[num + 1];
+	m[num + 1] = new float[num + 1]{ 0 };
+	w[num + 1] = new float[num + 1]{ 0 };
 
 	for (int i = 0; i <= num; i++)
 		cin >> a[i];
@@ -29,6 +31,12 @@ int main()
 		cin >> b[i];
 
 	OBST1(a, b, m, s, w);
+	cout << "w:" << endl;
+	PrintMsg(w);
+	cout << "m:" << endl;
+	PrintMsg(m);
+	cout << "s:" << endl;
+	PrintTreeRoot(s);
 	CreateTree(s, 1, num);
 
 	system("pause");
@@ -55,6 +63,32 @@ void CreateTree(int** s, int i, int j)
 		if (k != j)
 			CreateTree(s, k + 1, j);
 	}
+}
+
+//打印S矩阵信息
+void PrintTreeRoot(int** s)
+{
+	for (int i = 0; i <= num; i++)
+	{
+		for (int j = 0; j <= num; j++)
+			cout << s[i][j] << " ";
+
+		cout << endl;
+	}
+	cout << endl;
+}
+
+//打印S矩阵信息
+void PrintMsg(float** w)
+{
+	for (int i = 0; i <= num + 1; i++)
+	{
+		for (int j = 0; j <= num; j++)
+			cout << w[i][j] << "\t";
+
+		cout << endl;
+	}
+	cout << endl;
 }
 
 //动态规划算法求解最优二叉搜索树
