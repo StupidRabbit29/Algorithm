@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01背包-DP", "01背包-DP\01背包-DP.vcxproj", "{A3BF323B-210F-4056-875C-452DB270B8B9}"
 EndProject
@@ -16,6 +16,18 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nqueens-局部快速搜索", "Nqueens-局部快速搜索\Nqueens-局部快速搜索.vcxproj", "{6E18716D-803A-4FBD-B10B-6FE3C11B090F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Eight_Puzzle-BFS", "Eight_Puzzle-BFS\Eight_Puzzle-BFS.vcxproj", "{2AA1A8B8-6488-432D-82EA-D536A100E387}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{EC061F45-A22F-4419-832B-C74A0537DDC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEB0408C-FC79-429F-B5D7-85CF79C44CAC}"
+	ProjectSection(SolutionItems) = preProject
+		注意事项.md = 注意事项.md
+		项目说明.md = 项目说明.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "木板切割开销_POJ3235-贪心Huffman", "木板切割开销_POJ3235-贪心Huffman\木板切割开销_POJ3235-贪心Huffman.vcxproj", "{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "士兵布置_POJ3069-贪心", "士兵布置_POJ3069-贪心\士兵布置_POJ3069-贪心.vcxproj", "{8E4DCB2C-6608-463D-93A4-50F3B30734D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +93,30 @@ Global
 		{2AA1A8B8-6488-432D-82EA-D536A100E387}.Release|x64.Build.0 = Release|x64
 		{2AA1A8B8-6488-432D-82EA-D536A100E387}.Release|x86.ActiveCfg = Release|Win32
 		{2AA1A8B8-6488-432D-82EA-D536A100E387}.Release|x86.Build.0 = Release|Win32
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Debug|x64.ActiveCfg = Debug|x64
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Debug|x64.Build.0 = Debug|x64
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Debug|x86.Build.0 = Debug|Win32
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Release|x64.ActiveCfg = Release|x64
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Release|x64.Build.0 = Release|x64
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Release|x86.ActiveCfg = Release|Win32
+		{EC061F45-A22F-4419-832B-C74A0537DDC6}.Release|x86.Build.0 = Release|Win32
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Debug|x64.ActiveCfg = Debug|x64
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Debug|x64.Build.0 = Debug|x64
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Debug|x86.Build.0 = Debug|Win32
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Release|x64.ActiveCfg = Release|x64
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Release|x64.Build.0 = Release|x64
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Release|x86.ActiveCfg = Release|Win32
+		{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}.Release|x86.Build.0 = Release|Win32
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Debug|x64.ActiveCfg = Debug|x64
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Debug|x64.Build.0 = Debug|x64
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Debug|x86.Build.0 = Debug|Win32
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Release|x64.ActiveCfg = Release|x64
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Release|x64.Build.0 = Release|x64
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Release|x86.ActiveCfg = Release|Win32
+		{8E4DCB2C-6608-463D-93A4-50F3B30734D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
