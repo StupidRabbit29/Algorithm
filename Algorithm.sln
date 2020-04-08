@@ -21,8 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEB0408C-FC79-429F-B5D7-85CF79C44CAC}"
 	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
 		注意事项.md = 注意事项.md
-		项目说明.md = 项目说明.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "木板切割开销_POJ3235-贪心Huffman", "木板切割开销_POJ3235-贪心Huffman\木板切割开销_POJ3235-贪心Huffman.vcxproj", "{B4F79C25-FC54-4AF6-9D3A-C867E3B75AC2}"
