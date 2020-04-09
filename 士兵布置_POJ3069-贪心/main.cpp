@@ -44,6 +44,7 @@ int main()
 		cout << palantir << endl;
 
 		cin >> range >> num;
+		delete[] troop;
 	}
 
 	return 0;
