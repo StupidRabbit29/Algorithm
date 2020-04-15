@@ -32,6 +32,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "士兵布置_POJ3069-贪心
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字典序最小问题_POJ3617-贪心", "字典序最小问题_POJ3617-贪心\字典序最小问题_POJ3617-贪心.vcxproj", "{4B8A771F-ACB7-4044-86B3-E2E5CDA10742}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lake_Counting_POJ2386-DFS", "Lake_Counting_POJ2386-DFS\Lake_Counting_POJ2386-DFS.vcxproj", "{253879D6-C770-47AF-B620-AF582ED5F32A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "迷宫最短路径-BFS", "迷宫最短路径-BFS\迷宫最短路径-BFS.vcxproj", "{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -128,6 +132,22 @@ Global
 		{4B8A771F-ACB7-4044-86B3-E2E5CDA10742}.Release|x64.Build.0 = Release|x64
 		{4B8A771F-ACB7-4044-86B3-E2E5CDA10742}.Release|x86.ActiveCfg = Release|Win32
 		{4B8A771F-ACB7-4044-86B3-E2E5CDA10742}.Release|x86.Build.0 = Release|Win32
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Debug|x64.ActiveCfg = Debug|x64
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Debug|x64.Build.0 = Debug|x64
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Debug|x86.ActiveCfg = Debug|Win32
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Debug|x86.Build.0 = Debug|Win32
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Release|x64.ActiveCfg = Release|x64
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Release|x64.Build.0 = Release|x64
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Release|x86.ActiveCfg = Release|Win32
+		{253879D6-C770-47AF-B620-AF582ED5F32A}.Release|x86.Build.0 = Release|Win32
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Debug|x64.ActiveCfg = Debug|x64
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Debug|x64.Build.0 = Debug|x64
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Debug|x86.Build.0 = Debug|Win32
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Release|x64.ActiveCfg = Release|x64
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Release|x64.Build.0 = Release|x64
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Release|x86.ActiveCfg = Release|Win32
+		{3E14D7A9-4C77-4126-B9FB-99429AC9FD8A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
