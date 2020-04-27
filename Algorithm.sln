@@ -40,6 +40,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "双色地砖行走_POJ1979-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冰壶2_POJ3009-DFS", "冰壶2_POJ3009-DFS\冰壶2_POJ3009-DFS.vcxproj", "{4CA7409B-6660-4F2D-8CEF-D046B7B507C1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "大荒星陨_POJ3669-BFS", "大荒星陨_POJ3669-BFS\大荒星陨_POJ3669-BFS.vcxproj", "{67D9EC33-2134-4065-8E94-C66C693A207D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -168,6 +170,14 @@ Global
 		{4CA7409B-6660-4F2D-8CEF-D046B7B507C1}.Release|x64.Build.0 = Release|x64
 		{4CA7409B-6660-4F2D-8CEF-D046B7B507C1}.Release|x86.ActiveCfg = Release|Win32
 		{4CA7409B-6660-4F2D-8CEF-D046B7B507C1}.Release|x86.Build.0 = Release|Win32
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Debug|x64.ActiveCfg = Debug|x64
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Debug|x64.Build.0 = Debug|x64
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Debug|x86.ActiveCfg = Debug|Win32
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Debug|x86.Build.0 = Debug|Win32
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x64.ActiveCfg = Release|x64
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x64.Build.0 = Release|x64
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x86.ActiveCfg = Release|Win32
+		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
