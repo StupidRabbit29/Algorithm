@@ -42,6 +42,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "冰壶2_POJ3009-DFS", "冰�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "大荒星陨_POJ3669-BFS", "大荒星陨_POJ3669-BFS\大荒星陨_POJ3669-BFS.vcxproj", "{67D9EC33-2134-4065-8E94-C66C693A207D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "倒杨辉三角_POJ3187-穷竭搜索", "倒杨辉三角_POJ3187-穷竭搜索\倒杨辉三角_POJ3187-穷竭搜索.vcxproj", "{AC178674-0AF8-4682-A511-A58626FB1637}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "工作安排_POJ2376-贪心_区间", "工作安排_POJ2376-贪心_区间\工作安排_POJ2376-贪心_区间.vcxproj", "{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "雷达覆盖_POJ1328-贪心_区间", "雷达覆盖_POJ1328-贪心_区间\雷达覆盖_POJ1328-贪心_区间.vcxproj", "{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -178,6 +184,30 @@ Global
 		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x64.Build.0 = Release|x64
 		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x86.ActiveCfg = Release|Win32
 		{67D9EC33-2134-4065-8E94-C66C693A207D}.Release|x86.Build.0 = Release|Win32
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Debug|x64.ActiveCfg = Debug|x64
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Debug|x64.Build.0 = Debug|x64
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Debug|x86.ActiveCfg = Debug|Win32
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Debug|x86.Build.0 = Debug|Win32
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Release|x64.ActiveCfg = Release|x64
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Release|x64.Build.0 = Release|x64
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Release|x86.ActiveCfg = Release|Win32
+		{AC178674-0AF8-4682-A511-A58626FB1637}.Release|x86.Build.0 = Release|Win32
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Debug|x64.ActiveCfg = Debug|x64
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Debug|x64.Build.0 = Debug|x64
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Debug|x86.Build.0 = Debug|Win32
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Release|x64.ActiveCfg = Release|x64
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Release|x64.Build.0 = Release|x64
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Release|x86.ActiveCfg = Release|Win32
+		{A7C8E7EB-F3AD-4009-BDA5-53BA48EA27AD}.Release|x86.Build.0 = Release|Win32
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Debug|x64.ActiveCfg = Debug|x64
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Debug|x64.Build.0 = Debug|x64
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Debug|x86.ActiveCfg = Debug|Win32
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Debug|x86.Build.0 = Debug|Win32
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Release|x64.ActiveCfg = Release|x64
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Release|x64.Build.0 = Release|x64
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Release|x86.ActiveCfg = Release|Win32
+		{4347ACCC-287D-4A85-B38C-E1B9B22D5C10}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
