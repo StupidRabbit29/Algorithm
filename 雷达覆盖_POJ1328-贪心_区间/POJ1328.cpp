@@ -75,7 +75,8 @@ int main()
 			radar++;
 		}
 		cout << "Case " << cases << ": " << radar << endl;
-
+		
+		// 一定要释放
 		delete[] islands;
 	}
 
